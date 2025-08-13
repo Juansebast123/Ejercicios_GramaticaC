@@ -4,7 +4,7 @@ def funcion(cadena):
 
     while i < j:
         if (cadena[i] not in ('0', '1')) or (cadena[j] not in ('0', '1')):
-            return False
+            return 0
         if cadena[i] != cadena[j]:
             return 0
         i += 1
